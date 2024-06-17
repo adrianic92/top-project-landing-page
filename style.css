@@ -15,12 +15,17 @@ body {
     flex-direction: column;
 }
 
+.margins {
+    margin: 0 10vw;
+}
+
+.flex {
+    display: flex;
+}
+
 .header {
     background-color: #1F2937;
-    width: 100%;
-    display: flex;
     justify-content: space-between;
-    padding: 10px 10px;
 }
 
 .left-header {
@@ -32,8 +37,7 @@ body {
 .right-header {
     display: flex;
     align-items: center;
-    flex: 1;
-    justify-content: end;
+    justify-content: flex-end;
 }
 
 .logo {
@@ -55,6 +59,116 @@ ul {
     background-color: #1F2937;
 }
 
+.gap {
+    gap: 5vw
+}
+
+h1 {
+    margin: 0;
+    padding: 0;
+    font-size: 48px;
+    font-weight: 900;
+    color: #f9faf8;
+}
+
+.space {
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+}
+
+.left-main > p {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.left-main > button {
+    background-color: #3882f6;
+    color: #f9faf8;
+    border-radius: 5px;
+    border: none;
+    padding: 5px 20px;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+img {
+    width: 30vw;
+}
+
 .footer {
     background-color: #1F2937;
+}
+
+h2 {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+    text-align: center;
+}
+
+.quote {
+    background-color: #e5e7eb;
+}
+
+h3 {
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+    text-align: left;
+    font-weight: normal;
+}
+
+.cards {
+    display: flex;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.square {
+    width: 150px;
+    height: 150px;
+    border: #3882f6 5px solid;
+    border-radius: 10px;
+}
+
+.card > p {
+    text-align: center;
+    font-size: 18px;
+    color: #1F2937;
+}
+
+h4 {
+    text-align: right;
+    font-size: 24px;
+    font-weight: bold;
+    color: #1F2937;
+    margin-right: 5vw;
+}
+
+.signup > div {
+    background-color: #3882f6;
+    color: #f9faf8;
+    border-radius: 5px;
+    border: none;
+    padding: 5px 20px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.left-signup {
+    flex: 2;
+    padding: 1rem;
+    text-align: center;
+}
+
+.right-signup {
+    flex: 1;
 }
