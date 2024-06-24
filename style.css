@@ -165,10 +165,32 @@ h4 {
 
 .left-signup {
     flex: 2;
-    padding: 1rem;
-    text-align: center;
+    padding-left: 4rem;
+    text-align: left;
+}
+
+.left-signup-first {
+    font-size: 24px;
+    font-weight: bold;
+    color: #f9faf8;
+    margin-bottom: 0;
+}
+
+.left-signup-second {
+    margin-top: 0;
 }
 
 .right-signup {
     flex: 1;
+    text-align: center;
+}
+
+.right-signup > button {
+    background-color: #3882f6;
+    color: #f9faf8;
+    border-radius: 5px;
+    border: white 2px solid;
+    padding: 5px 20px;
+    font-size: 18px;
+    font-weight: 700;
 }
